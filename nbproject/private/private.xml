@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/F:/Programming/Self%20made%20projects/CitizenProfileManagementSystem_02/CitizenProfileManagementSystem/src/citizenprofilemanagementsystem/UpdatePassportInfo.java</file>
+            <file>file:/F:/Programming/Self%20made%20projects/CitizenProfileManagementSystem_02/CitizenProfileManagementSystem/src/citizenprofilemanagementsystem/Home.java</file>
+            <file>file:/F:/Programming/Self%20made%20projects/CitizenProfileManagementSystem_02/CitizenProfileManagementSystem/src/citizenprofilemanagementsystem/RemoveProfile.java</file>
+            <file>file:/F:/Programming/Self%20made%20projects/CitizenProfileManagementSystem_02/CitizenProfileManagementSystem/src/citizenprofilemanagementsystem/AddNIDInfo.java</file>
+            <file>file:/F:/Programming/Self%20made%20projects/CitizenProfileManagementSystem_02/CitizenProfileManagementSystem/src/citizenprofilemanagementsystem/Login.java</file>
+            <file>file:/F:/Programming/Self%20made%20projects/CitizenProfileManagementSystem_02/CitizenProfileManagementSystem/src/citizenprofilemanagementsystem/AddOnlinePresenceInfo.java</file>
+            <file>file:/F:/Programming/Self%20made%20projects/CitizenProfileManagementSystem_02/CitizenProfileManagementSystem/src/citizenprofilemanagementsystem/UpdateDrivingLicenseInfo.java</file>
+            <file>file:/F:/Programming/Self%20made%20projects/CitizenProfileManagementSystem_02/CitizenProfileManagementSystem/src/citizenprofilemanagementsystem/UpdateTradeLicenseInfo.java</file>
+            <file>file:/F:/Programming/Self%20made%20projects/CitizenProfileManagementSystem_02/CitizenProfileManagementSystem/src/citizenprofilemanagementsystem/AddDrivingLicenseInfo.java</file>
+            <file>file:/F:/Programming/Self%20made%20projects/CitizenProfileManagementSystem_02/CitizenProfileManagementSystem/src/citizenprofilemanagementsystem/CitizenProfileManagementSystem.java</file>
+            <file>file:/F:/Programming/Self%20made%20projects/CitizenProfileManagementSystem_02/CitizenProfileManagementSystem/src/citizenprofilemanagementsystem/UpdateOnlinePresenceInfo.java</file>
+            <file>file:/F:/Programming/Self%20made%20projects/CitizenProfileManagementSystem_02/CitizenProfileManagementSystem/src/citizenprofilemanagementsystem/UpdateNIDInfo.java</file>
+            <file>file:/F:/Programming/Self%20made%20projects/CitizenProfileManagementSystem_02/CitizenProfileManagementSystem/src/citizenprofilemanagementsystem/ViewWorkHistory.java</file>
+            <file>file:/F:/Programming/Self%20made%20projects/CitizenProfileManagementSystem_02/CitizenProfileManagementSystem/src/citizenprofilemanagementsystem/AddBasicInformation.java</file>
+            <file>file:/F:/Programming/Self%20made%20projects/CitizenProfileManagementSystem_02/CitizenProfileManagementSystem/src/citizenprofilemanagementsystem/AddPassportInfo.java</file>
+            <file>file:/F:/Programming/Self%20made%20projects/CitizenProfileManagementSystem_02/CitizenProfileManagementSystem/src/citizenprofilemanagementsystem/ConnectMSSQL.java</file>
+            <file>file:/F:/Programming/Self%20made%20projects/CitizenProfileManagementSystem_02/CitizenProfileManagementSystem/src/citizenprofilemanagementsystem/Citizen%20Profile%20Management%20System.xml</file>
+            <file>file:/F:/Programming/Self%20made%20projects/CitizenProfileManagementSystem_02/CitizenProfileManagementSystem/src/citizenprofilemanagementsystem/ViewProfile.java</file>
+            <file>file:/F:/Programming/Self%20made%20projects/CitizenProfileManagementSystem_02/CitizenProfileManagementSystem/src/citizenprofilemanagementsystem/AddEducationalQualifications.java</file>
+            <file>file:/F:/Programming/Self%20made%20projects/CitizenProfileManagementSystem_02/CitizenProfileManagementSystem/src/citizenprofilemanagementsystem/Splash.java</file>
+            <file>file:/F:/Programming/Self%20made%20projects/CitizenProfileManagementSystem_02/CitizenProfileManagementSystem/src/citizenprofilemanagementsystem/UpdateBasicInformation.java</file>
+            <file>file:/F:/Programming/Self%20made%20projects/CitizenProfileManagementSystem_02/CitizenProfileManagementSystem/src/citizenprofilemanagementsystem/ViewPassportInfo.java</file>
+            <file>file:/F:/Programming/Self%20made%20projects/CitizenProfileManagementSystem_02/CitizenProfileManagementSystem/src/citizenprofilemanagementsystem/ViewNIDInfo.java</file>
+            <file>file:/F:/Programming/Self%20made%20projects/CitizenProfileManagementSystem_02/CitizenProfileManagementSystem/src/citizenprofilemanagementsystem/UpdateEducationalQualifications.java</file>
+            <file>file:/F:/Programming/Self%20made%20projects/CitizenProfileManagementSystem_02/CitizenProfileManagementSystem/src/citizenprofilemanagementsystem/ViewOnlinePresenceInfo.java</file>
+            <file>file:/F:/Programming/Self%20made%20projects/CitizenProfileManagementSystem_02/CitizenProfileManagementSystem/src/citizenprofilemanagementsystem/ViewBasicInformation.java</file>
+            <file>file:/F:/Programming/Self%20made%20projects/CitizenProfileManagementSystem_02/CitizenProfileManagementSystem/src/citizenprofilemanagementsystem/UpdateProfile.java</file>
+            <file>file:/F:/Programming/Self%20made%20projects/CitizenProfileManagementSystem_02/CitizenProfileManagementSystem/src/citizenprofilemanagementsystem/ViewEducationalQualifications.java</file>
+            <file>file:/F:/Programming/Self%20made%20projects/CitizenProfileManagementSystem_02/CitizenProfileManagementSystem/src/citizenprofilemanagementsystem/AddBirthRegInfo.java</file>
+            <file>file:/F:/Programming/Self%20made%20projects/CitizenProfileManagementSystem_02/CitizenProfileManagementSystem/src/citizenprofilemanagementsystem/ViewDrivingLicenseInfo.java</file>
+            <file>file:/F:/Programming/Self%20made%20projects/CitizenProfileManagementSystem_02/CitizenProfileManagementSystem/src/citizenprofilemanagementsystem/UpdatePermanentAddress.java</file>
+            <file>file:/F:/Programming/Self%20made%20projects/CitizenProfileManagementSystem_02/CitizenProfileManagementSystem/src/citizenprofilemanagementsystem/AddTradeLicenseInfo.java</file>
+            <file>file:/F:/Programming/Self%20made%20projects/CitizenProfileManagementSystem_02/CitizenProfileManagementSystem/src/citizenprofilemanagementsystem/ViewBirthRegInfo.java</file>
+            <file>file:/F:/Programming/Self%20made%20projects/CitizenProfileManagementSystem_02/CitizenProfileManagementSystem/src/citizenprofilemanagementsystem/UpdateWorkHistory.java</file>
+            <file>file:/F:/Programming/Self%20made%20projects/CitizenProfileManagementSystem_02/CitizenProfileManagementSystem/src/citizenprofilemanagementsystem/AddProfile.java</file>
+            <file>file:/F:/Programming/Self%20made%20projects/CitizenProfileManagementSystem_02/CitizenProfileManagementSystem/src/citizenprofilemanagementsystem/UpdateBirthRegInfo.java</file>
+            <file>file:/F:/Programming/Self%20made%20projects/CitizenProfileManagementSystem_02/CitizenProfileManagementSystem/src/citizenprofilemanagementsystem/ViewPermanentAddress.java</file>
+            <file>file:/F:/Programming/Self%20made%20projects/CitizenProfileManagementSystem_02/CitizenProfileManagementSystem/src/citizenprofilemanagementsystem/ViewTradeLicenseInfo.java</file>
+            <file>file:/F:/Programming/Self%20made%20projects/CitizenProfileManagementSystem_02/CitizenProfileManagementSystem/src/citizenprofilemanagementsystem/AddPermanentAddress.java</file>
+            <file>file:/F:/Programming/Self%20made%20projects/CitizenProfileManagementSystem_02/CitizenProfileManagementSystem/src/citizenprofilemanagementsystem/AddWorkHistory.java</file>
+        </group>
+    </open-files>
+</project-private>
