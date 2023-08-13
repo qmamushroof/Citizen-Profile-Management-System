@@ -1,0 +1,77 @@
+*"insert into person values(" + NID + ",'" + Name + "', '" + DateOfBirth + "', '" + Sex + "', '" + Location + "','" + MobileNumber + "', '" + EmailId + "', '" + Profession + "', '" + BloodGroup + "', '" + MaritalStatus + "', '" + CriminalRecord + "')";
+*"insert into birthRegistration(NID,RegistrationNumber,RegistrationDate,CertificateIssueDate,WardNumber,RegisterNumber,PermanentAddress) values("+NID+"," + RegistrationNumber + ", '" + RegistrationDate + "', '" + CertificateIssueDate + "', " + WardNumber+ "," +RegisterNumber+",'"+PermanentAddress+"')";
+*"insert into drivingLicense(NID,LicenseNumber,ExpiryDate,RenewalDate,VehicleType,IssuingAuthority) values("+NID+"," + LicenseNumber + ", '" + ExpiryDate + "', '" + RenewalDate + "', '" + VehicleType+ "','" +IssuingAuthority+"')";
+*"insert into EducationalQualifications(NID,SSCResult,SSCYear,HSCResult,HSCYear,BachelorsResult,BachelorsYear,MastersResult,MastersYear,DiplomaResult,DiplomaYear) values(" + NID + "," + SSCResult + "," + SSCYear + "," + HSCResult + "," + HSCYear +","+ BachelorsResult +"," + BachelorsYear +","+ MastersResult +","+ MastersYear +","+ DiplomaResult +","+ DiplomaYear + ")";
+*"insert into nationalIdCard(NID,FathersName,MothersName,CityOfBirth,PresentAddress,NID_person) values("+NID+",'" + FathersName + "', '" + MothersName + "', '" + CityOfBirth + "', '" + PresentAddress+"',"+NID+")";
+*"insert into OnlinePresence(NID,WebsiteName,UserId) values("+NID+",'" + WebsiteName + "', '" + UserID + "')";
+*"insert into passport(NID,PassportNumber,ExpiryDate,IssueDate,PassportType,CountryCode,PreviousPassportNumber) values("+NID+"," + PassportNumber + ", '" + ExpiryDate + "', '" + IssueDate + "', '" + PassportType+ "','" +CountryCode+"',"+PreviousPassportNumber+")";
+*"insert into PermanentAddress(NID,HouseAddress,LocalityName,Upazila,District,Division) values("+NID+",'" + HouseAddress + "', '" + LocalityName + "', '" + Upazila + "', '" + District+ "','" +Division+"')";
+*"insert into tradeLicense(NID,LicenseNumber,ExpiryDate,RenewalDate,BusinessType,IssuingAuthority,OrganizationName,OrganizationAddress) values("+NID+"," + LicenseNumber + ", '" + ExpiryDate + "', '" + RenewalDate + "', '" + BusinessType+ "','" +IssuingAuthority+"','"+OrganizationName+"','"+OrganizationAddress+"')";
+*"insert into WorkHistory(NID,OrganizationName,StartDate,EndDate,jobRole,CurrentStatus) values("+NID+"," + OrganizationName + ", '" + StartDate + "', '" + EndDate + "', '" + jobRole+ "','" +CurrentStatus+"')";
+
+*"select * from person";
+*"select * from person where NID = '"+cNID.getSelectedItem()+"'";
+*"select * from person where NID = "+cNID.getSelectedItem();
+*"delete from birthRegistration where NID = '"+cNID.getSelectedItem()+"'";
+*"delete from nationalIdCard where NID = '"+cNID.getSelectedItem()+"'";
+*"delete from passport where NID = '"+cNID.getSelectedItem()+"'";
+*"delete from WorkHistory where NID = '"+cNID.getSelectedItem()+"'";
+*"delete from PermanentAddress where NID = '"+cNID.getSelectedItem()+"'";
+*"delete from OnlinePresence where NID = '"+cNID.getSelectedItem()+"'";
+*"delete from EducationalQualifications where NID = '"+cNID.getSelectedItem()+"'";
+*"delete from drivingLicense where NID = '"+cNID.getSelectedItem()+"'";
+*"delete from tradeLicense where NID = '"+cNID.getSelectedItem()+"'";
+*"delete from person where NID = '"+cNID.getSelectedItem()+"'";
+
+*"select * from person where NID = " + NID;
+*"update person set name = '" + Name + "', dateOfBirth = '" + DateOfBirth + "', Sex = '" + Sex + "', Location = '" + Location + "', MobileNumber =  " + MobileNumber + ", EmailId = '" + EmailId + "', Profession = '" + Profession + "',BloodGroup='" + BloodGroup + "',MaritalStatus='" + MaritalStatus + "',CriminalRecord='" + CriminalRecord + "'where NID = " + NID;
+*"select * from birthRegistration where NID = " + NID;
+*"update birthRegistration set RegistrationNumber = " + RegistrationNumber + ", RegistrationDate = '" + RegistrationDate + "', CertificateIssueDate = '" + CertificateIssueDate + "', WardNumber = " + WardNumber + ", RegisterNumber =  " + RegisterNumber + ",PermanentAddress='" + PermanentAddress + "'where NID = " + NID;
+*"select * from drivingLicense where NID = " + NID;
+*"update drivingLicense set LicenseNumber = " + LicenseNumber + ", ExpiryDate = '" + ExpiryDate + "', RenewalDate = '" + RenewalDate + "', VehicleType = '" + VehicleType + "', IssuingAuthority =  '" + IssuingAuthority+ "' where NID = " + NID;
+*"select * from EducationalQualifications where NID = " + NID;
+*"update EducationalQualifications set SSCResult = " + SSCResult + ", SSCYear = " + SSCYear + ", HSCResult = " + HSCResult + ", HSCYear = " + HSCYear + ", BachelorsResult =  " + BachelorsResult + ", BachelorsYear = " + BachelorsYear + ", MastersResult = " + MastersResult + ",MastersYear=" + MastersYear + ",DiplomaResult=" + DiplomaResult + ",DiplomaYear=" + DiplomaYear + "where NID = " + NID;
+*"select * from nationalIdCard where NID = " + NID;
+*"update nationalIdCard set FathersName = '" + FathersName + "', MothersName = '" + MothersName + "', CityOfBirth = '" + CityOfBirth + "', PresentAddress = '" + PresentAddress +"'where NID = " + NID;
+*"select * from OnlinePresence where NID = " + NID;
+*"update OnlinePresence set WebsiteName = '" + WebsiteName + "', UserId = '" + UserId+"'where NID = " + NID;
+*"select * from passport where NID = " + NID;
+*"update passport set PassportNumber = " + PassportNumber + ", ExpiryDate = '" + ExpiryDate + "', IssueDate = '" + IssueDate + "', PassportType = '" + PassportType + "', CountryCode =  '" + CountryCode + "',PreviousPassportNumber=" + PreviousPassportNumber + " where NID = " + NID;
+*"select * from PermanentAddress where NID = " + NID;
+*"update PermanentAddress set HouseAddress = '" + HouseAddress + "', LocalityName = '" + LocalityName + "', Upazila = '" + Upazila + "', District = '" + District + "', Division = '" + Division + "'where NID = " + NID;
+*"select * from tradeLicense where NID = " + NID;
+*"update tradeLicense set LicenseNumber = " + LicenseNumber + ", ExpiryDate = '" + ExpiryDate + "', RenewalDate = '" + RenewalDate + "', BusinessType = '" + BusinessType + "', IssuingAuthority =  '" + IssuingAuthority+ "', OrganizationName =  '" + OrganizationName+ "', OrganizationAddress =  '" + OrganizationAddress+ "'where NID = " + NID;
+*"select * from WorkHistory where NID = " + NID;
+*"update WorkHistory set OrganizationName = '" + OrganizationName + "', StartDate = '" + StartDate + "', EndDate = '" + EndDate + "', jobRole = '" + jobRole + "', CurrentStatus =  '" + CurrentStatus + "' where NID = " + NID;
+
+*"select * from person"
+*"select * from person where NID = '"+NID.getSelectedItem()+"'";
+*"select * from birthRegistration"
+*"select NID,RegistrationNumber,RegistrationDate,CertificateIssueDate,WardNumber,RegisterNumber,PermanentAddress from birthRegistration");
+*"select NID,RegistrationNumber,RegistrationDate,CertificateIssueDate,WardNumber,RegisterNumber,PermanentAddress from birthRegistration where NID = '"+NID.getSelectedItem()+"'";
+*"select * from drivingLicense"
+*"select NID,LicenseNumber,ExpiryDate,RenewalDate,VehicleType,IssuingAuthority from drivingLicense");
+*"select * from EducationalQualifications"
+*"select NID,SSCResult,SSCYear,HSCResult,HSCYear,BachelorsResult,BachelorsYear,MastersResult,MastersYear,DiplomaResult,DiplomaYear from EducationalQualifications");
+*"select NID,SSCResult,SSCYear,HSCResult,HSCYear,BachelorsResult,BachelorsYear,MastersResult,MastersYear,DiplomaResult,DiplomaYear from EducationalQualifications where NID = '"+NID.getSelectedItem()+"'";
+*"select * from nationalIdCard"
+*"select NID,FathersName,MothersName,CityOfBirth,PresentAddress from nationalIdCard");
+*"select NID,FathersName,MothersName,CityOfBirth,PresentAddress from nationalIdCard where NID = '"+NID.getSelectedItem()+"'";
+*"select * from OnlinePresence"
+*"select * from OnlinePresence where NID = '"+NID.getSelectedItem()+"'";
+*"select * from passport"
+*"select NID,PassportNumber,ExpiryDate,IssueDate,PassportType,CountryCode,PreviousPassportNumber from passport");
+*"select NID,PassportNumber,ExpiryDate,IssueDate,PassportType,CountryCode,PreviousPassportNumber from passport where NID = '"+NID.getSelectedItem()+"'";
+*"select * from PermanentAddress"
+*"select * from PermanentAddress where NID = '"+NID.getSelectedItem()+"'";
+*"select * from tradeLicense"
+*"select NID,LicenseNumber,ExpiryDate,RenewalDate,BusinessType,IssuingAuthority,OrganizationName,OrganizationAddress from tradeLicense");
+*"select * from WorkHistory"
+*"select * from WorkHistory where NID = '"+NID.getSelectedItem()+"'";
+
+
+
+
+
+
+
